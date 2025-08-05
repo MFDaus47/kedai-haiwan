@@ -1,0 +1,75 @@
+2025-08-05 14:23:59 - PHP Warning:  mkdir(): Permission denied in /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 50
+2025-08-05 14:23:59 - Error: Unable to create the cache directory (/Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/system/storage/cache/template/51).
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php
+Line: 53
+
+Backtrace: 0
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/system/storage/vendor/twig/twig/src/Environment.php
+Line: 397
+Class: Twig\Cache\FilesystemCache
+Function: write
+
+Backtrace: 1
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/system/storage/vendor/twig/twig/src/Environment.php
+Line: 357
+Class: Twig\Environment
+Function: loadTemplate
+
+Backtrace: 2
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/system/storage/vendor/twig/twig/src/Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 3
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/system/library/template/twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 4
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/system/library/template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 5
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/system/engine/loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 6
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/install/controller/common/footer.php
+Line: 22
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 7
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/system/engine/loader.php
+Line: 112
+Class: Opencart\Install\Controller\Common\Footer
+Function: index
+
+Backtrace: 8
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/install/controller/install/step_1.php
+Line: 28
+Class: Opencart\System\Engine\Loader
+Function: controller
+
+Backtrace: 9
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/system/engine/action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step1
+Function: index
+
+Backtrace: 10
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 11
+File: /Applications/XAMPP/xamppfiles/htdocs/kedai-haiwan/upload/install/index.php
+Line: 42
+Function: require_once
